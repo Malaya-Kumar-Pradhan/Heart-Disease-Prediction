@@ -2,7 +2,7 @@
 
 A full-stack Machine Learning web application designed to predict the likelihood of heart disease based on clinical patient data. This project demonstrates a complete end-to-end pipeline from data preprocessing and model training to API deployment.
 
-### 🚀 [View Live App on Render](https://your-app-name.onrender.com)
+### 🚀 [View Live App on Render](https://heart-disease-prediction-nu5b.onrender.com)
 ---
 
 ## 🚀 Features

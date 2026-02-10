@@ -11,14 +11,6 @@
         <h2>Heart Disease Prediction</h2>
         <form action="/predict" method="post">
             <div class="input-group">
-                <label for="level">Level 0:</label>
-                <input type="number" name="level" required>
-            </div>
-            <div class="input-group">
-                <label for="index">Index:</label>
-                <input type="number" name="index" required>
-            </div>
-            <div class="input-group">
                 <label for="age">Age:</label>
                 <input type="number" name="age" min="1" max="120" required>
             </div>
@@ -28,7 +20,7 @@
             </div>
             <div class="input-group">
                 <label for="cp">Chest Pain Type (0-3):</label>
-                <input type="number" name="cp" min="0" max="3" required>
+                <input type="number" name="cp" min="0" max="4" required>
             </div>
             <div class="input-group">
                 <label for="trestbps">Resting BP (mm Hg):</label>
@@ -39,7 +31,7 @@
                 <input type="number" name="chol" required>
             </div>
             <div class="input-group">
-                <label for="fbs">FBS (>120 mg/dl) (1=Y, 0=N):</label>
+                <label for="fbs">Fasting Blood Sugar (>120 mg/dl) (1=Y, 0=N):</label>
                 <input type="number" name="fbs" min="0" max="1" required>
             </div>
             <div class="input-group">
@@ -47,8 +39,8 @@
                 <input type="number" name="restecg" min="0" max="2" required>
             </div>
             <div class="input-group">
-                <label for="thalach">Max Heart Rate:</label>
-                <input type="number" name="thalach" required>
+                <label for="MHR">Max Heart Rate:</label>
+                <input type="number" name="MHR" required>
             </div>
             <div class="input-group">
                 <label for="exang">Exercise Angina (1=Y, 0=N):</label>
@@ -59,18 +51,9 @@
                 <input type="number" name="oldpeak" required>
             </div>
             <div class="input-group">
-                <label for="slope">Slope (0-2):</label>
+                <label for="slope">ST Slope (0-2):</label>
                 <input type="number" name="slope" min="0" max="2" required>
             </div>
-            <div class="input-group">
-                <label for="ca">Major Vessels (0-4):</label>
-                <input type="number" name="ca" min="0" max="4" required>
-            </div>
-            <div class="input-group">
-                <label for="thal">Thal (1-3):</label>
-                <input type="number" name="thal" min="1" max="3" required>
-            </div>
-            
             <input type="submit" value="Analyze Results">
         </form>
 
